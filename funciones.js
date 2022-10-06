@@ -72,7 +72,11 @@ function modificar (id){
 
 
 function ejecutar() {
-    const opcion = prompt("Seleccione una de las siguientes opciones: 1. Mostrar todos los productos 2. Agregar un producto 3. Eliminar un producto 4.Modificar un producto")
+    const opcion = prompt(`Seleccione una de las siguientes opciones: 
+    1. Mostrar todos los productos 
+    2. Agregar un producto 
+    3. Eliminar un producto 
+    4. Modificar un producto`)
 
     if (opcion == 1) {
         mostrar();
